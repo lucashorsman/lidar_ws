@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7a4226996d82b3e3cf20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "urg_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "getID::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getID-456e5ed344b853ab7a25.json",
+					"name" : "getID",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-606cdcbbb9cc3106a732.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node-c8ef3c56239fd6a8f15c.json",
+					"name" : "urg_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_driver-894c5dc6d22b7fc8d1a2.json",
+					"name" : "urg_node_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_uninstall-26dd53f5965b3ab5124c.json",
+					"name" : "urg_node_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/riplab/GIT/lidar_ws/build/urg_node",
+		"source" : "/home/riplab/GIT/lidar_ws/src/urg_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,31 @@
+[0.011s] Invoking command in '/home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry -- -j16 -l16
+[0.062s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[0.065s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[0.066s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[15.259s] [ 80%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[15.753s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[15.949s] [100%] Built target rf2o_laser_odometry
+[16.079s] [100%] Built target rf2o_laser_odometry_node
+[16.088s] Invoked command in '/home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry -- -j16 -l16
+[16.096s] Invoking command in '/home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry
+[16.102s] -- Install configuration: ""
+[16.102s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[16.111s] -- Set non-toolchain portion of runtime path of "/home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[16.111s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[16.111s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[16.112s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[16.113s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[16.114s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[16.114s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[16.114s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[16.114s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[16.114s] -- Installing: /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[16.115s] Invoked command in '/home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riplab/GIT/lidar_ws/src/rf2o_laser_odometry/build/rf2o_laser_odometry
