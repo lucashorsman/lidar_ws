@@ -1,0 +1,16 @@
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/src/lidar_launch.py
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/ament_index/resource_index/package_run_dependencies/lidar_launch
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/ament_index/resource_index/parent_prefix_path/lidar_launch
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/environment/ament_prefix_path.sh
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/environment/ament_prefix_path.dsv
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/environment/path.sh
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/environment/path.dsv
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/local_setup.bash
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/local_setup.sh
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/local_setup.zsh
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/local_setup.dsv
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/package.dsv
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/ament_index/resource_index/packages/lidar_launch
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/cmake/lidar_launchConfig.cmake
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/cmake/lidar_launchConfig-version.cmake
+/home/riplab/GIT/lidar_ws/install/lidar_launch/share/lidar_launch/package.xml
