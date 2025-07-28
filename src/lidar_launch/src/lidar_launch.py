@@ -17,6 +17,8 @@ from launch.event_handlers import OnProcessExit
 from launch.substitutions import Command, FindExecutable, PathJoinSubstitution, LaunchConfiguration
 
 from launch_ros.actions import Node
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
 
 
@@ -101,12 +103,16 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
         condition=IfCondition(gui),
     )
-    rf2o_node = Node(
-
-        package="rf2o_laser_odometry",
-        executable="rf2o_laser_odometry",
-        name="rf2o_laser_odometry",
+    rf2o_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution([
+                FindPackageShare("rf2o_laser_odometry"),
+                "launch",
+                "rf2o_laser_odometry.launch.py"
+            ])
+        )
     )
+
 
     #ros2 run urg_node urg_node_driver --ros-args --params-file launch/urg_node_ethernet.yaml
     urg_node = Node(
@@ -119,6 +125,7 @@ def generate_launch_description():
     nodes = [    
         robot_state_pub_node,
         urg_node,
+        rf2o_launch,
     ]
 
     return LaunchDescription(declared_arguments + nodes)
