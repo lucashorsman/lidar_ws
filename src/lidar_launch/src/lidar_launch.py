@@ -101,12 +101,12 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
         condition=IfCondition(gui),
     )
-    # rf2o_node = Node(
+    rf2o_node = Node(
 
-    #     package="rf2o_laser_odometry",
-    #     executable="rf2o_laser_odometry",
-    #     name="rf2o_laser_odometry",
-    # )
+        package="rf2o_laser_odometry",
+        executable="rf2o_laser_odometry",
+        name="rf2o_laser_odometry",
+    )
 
     #ros2 run urg_node urg_node_driver --ros-args --params-file launch/urg_node_ethernet.yaml
     urg_node = Node(
@@ -117,11 +117,7 @@ def generate_launch_description():
     arguments=[
         "--ros-args",
         "--params-file",
-        PathJoinSubstitution([
-            FindPackageShare("urg_node"),
-            "launch",
-            "urg_node_ethernet.yaml"
-        ])
+        PathJoinSubstitution(["/home/riplab/GIT/lidar_ws/src/urg_node/launch/urg_node_ethernet.yaml"])
     ]
 )
     nodes = [    

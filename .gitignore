@@ -1,0 +1,17 @@
+
+/build
+/build/lidar_launch
+*.env
+/install
+/log
+/src/urg_node/build
+/src/urg_node/log
+/src/urg_node/install
+/build
+build/lidar_launch/colcon_command_prefix_build.sh.env
+build/rf2o_laser_odometry/colcon_command_prefix_build.sh.env
+*.o
+*.env
+*.env
+*.so
+/install
