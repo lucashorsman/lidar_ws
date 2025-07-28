@@ -114,11 +114,7 @@ def generate_launch_description():
     executable="urg_node_driver",
     name="urg_node_driver",
     output="screen",
-    arguments=[
-        "--ros-args",
-        "--params-file",
-        PathJoinSubstitution(["/home/riplab/GIT/lidar_ws/src/urg_node/launch/urg_node_ethernet.yaml"])
-    ]
+    
 )
     nodes = [    
         robot_state_pub_node,
