@@ -55,26 +55,12 @@
 
     <xacro:hokuyo_ust10 frame="laser" topic="${topic}"/>
 
-    <joint name="laser_mount_joint" type="fixed">
-      <xacro:insert_block name="origin" />
-      <parent link="${parent_link}" />
-      <child link="laser_mount" />
-    </joint>
-
-    <link name="laser_mount">
-      <visual>
-        <origin xyz="0 0 0" rpy="0 0 0" />
-        <geometry>
-          <!-- Origin of this mesh is the base of the bracket. -->
-          <mesh filename="package://urg_node/meshes/hokuyo_ust10.stl" />
-        </geometry>
-      </visual>
-    </link>
+   
 
     <joint name="laser_joint" type="fixed">
       <!-- This offset is from the base of the bracket to the LIDAR's focal point. -->
       <origin xyz="0 0 0.0474" rpy="0 0 0" />
-      <parent link="laser_mount" />
+      <parent link="base_link" />
       <child link="laser" />
     </joint>
 
