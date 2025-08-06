@@ -122,10 +122,18 @@ def generate_launch_description():
     output="screen",
     
 )
-    nodes = [    
+    laser_scan_matcher_node = Node(
+        package="ros2_laser_scan_matcher",
+        executable="laser_scan_matcher",
+        name="laser_scan_matcher",
+        output="screen",
+    )
+
+    nodes = [
         robot_state_pub_node,
         urg_node,
         rf2o_launch,
+        # laser_scan_matcher_node,
     ]
 
     return LaunchDescription(declared_arguments + nodes)

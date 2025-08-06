@@ -68,7 +68,7 @@ UrgNode::UrgNode(const rclcpp::NodeOptions & node_options)
   angle_min_(-3.14),
   angle_max_(3.14),
   cluster_(1),
-  skip_(0),
+  skip_(2),
   default_user_latency_(0.0),
   laser_frame_id_("laser"),
   service_yield_(true)
